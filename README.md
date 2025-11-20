@@ -14,7 +14,7 @@ As a GM you're responsible for 90% of the work that goes into a TTRPG session, b
 As a GM myself, I've experienced this firsthand. My goal with this app is to provide a simple, beautiful, but fool-proof tool to TTRPG players to take the hassle out of scheduling your next game.
 
 ## Visual Aid
-![Concept for main page](../concept.png)
+![Concept](.\frontend\src\assets\concept.png)
 
 ## Minimum Viable Product & Key Features
 At the very least, the application needs to be a clean, user-friendly calendar application. Users should be able to:
