@@ -1,4 +1,5 @@
 import styles from "../src/css_modules/app.module.css"
+import Calendar from "./components/calendar"
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
           </div>
 
           <div className={styles.content}>
-            <h1>Swords, Sorcery, Scheduling</h1>
+            <Calendar />
           </div>
         </div>
 
