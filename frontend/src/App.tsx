@@ -5,8 +5,21 @@ function App() {
   return (
     <>
       <div className={styles.app}>
-        <h1>Swords, Sorcery, Scheduling</h1>
-        <p></p>
+
+        <div className={styles.topbar}>
+          <h1>Topbar</h1>
+        </div>
+
+        <div className={styles.main}>
+          <div className={styles.sidebar}>
+            <h2>Sidebar</h2>
+          </div>
+
+          <div className={styles.content}>
+            <h1>Swords, Sorcery, Scheduling</h1>
+          </div>
+        </div>
+
       </div>
     </>
   )
