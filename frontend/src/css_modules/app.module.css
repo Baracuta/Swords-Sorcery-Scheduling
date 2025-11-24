@@ -6,9 +6,9 @@ body{
 
 .app {
   background-color:rgb(32, 32, 32);
-  border-color: red;
-  border: solid red;
-  border-width: 5px;
+  border: solid white;
+  border-width: 4px;
+  border-radius: 5px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    border-bottom: solid white;
+    border-width: 4px;
+    border-radius: 4px;
     .pfp{
     padding-left: 10px;
     }
@@ -48,19 +50,21 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: solid green;
 
     .sidebar {
       display: flex;
       flex-direction: column;
       background-color: rgb(25, 25, 25);
-      border: solid blue;
+      border-right: solid white;
+      border-top: solid white;
+      border-width: 4px;
+      border-radius: 2px;
       width: 100px;
       height: 800px;
     }
 
     .content {
-      border: solid yellow;
+      border: none;
       flex: 1;
       background-color: rgb(35, 35, 35);
       height: 800px;
