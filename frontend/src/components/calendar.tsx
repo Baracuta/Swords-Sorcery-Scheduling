@@ -8,7 +8,7 @@ function Calendar() {
       <DateCalendar showDaysOutsideCurrentMonth
         sx={{
             width: '100%', height:'100%', maxHeight: '800px', bgcolor: 'rgb(45, 45, 45)', color: 'white', scale:'fill', theme: { palette: { mode: 'dark' }},
-            '& .MuiPickersCalendarHeader-label': { color: 'white' },
+            '& .MuiPickersCalendarHeader-label': { color: 'white', fontSize: '16px', fontWeight: 'bold' },
             '& .MuiPickersArrowSwitcher-root button': { color: 'white' },
             '& .MuiPickersDay-root': { color: 'white', width: '12%', height: '100px', fontSize: '16px', bgcolor: 'rgb(55, 55, 55)', borderRadius: '8px', border: '1px solid rgb(75, 75, 75)'},
             '& .MuiPickersDay-root.Mui-selected': { bgcolor: 'rgb(75, 75, 75)' },
@@ -18,6 +18,7 @@ function Calendar() {
             '& .MuiDayCalendar-root': { height: '750px',bgcolor: 'rgb(45, 45, 45)'},
             '& .MuiDayCalendar-weekDayLabel': { color: 'white', bgcolor: 'rgb(45, 45, 45)', fontSize: '16px', width: '12%' },
             '& .MuiPickersSlideTransition-root': { height: '100%',bgcolor: 'rgb(45, 45, 45)'},
+            '& .MuiSvgIcon-root': { color: 'white' },
          }}
       />
     </LocalizationProvider>
