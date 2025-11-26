@@ -6,7 +6,7 @@ body{
 
 .app {
   background-color:rgb(32, 32, 32);
-  border: solid white;
+  border: solid rgb(75, 75, 75);
   border-width: 4px;
   border-radius: 5px;
   margin: 0;
@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid white;
+    border-bottom: solid rgb(75, 75, 75);
     border-width: 4px;
     border-radius: 4px;
     .pfp{
@@ -55,8 +55,8 @@ body{
       display: flex;
       flex-direction: column;
       background-color: rgb(25, 25, 25);
-      border-right: solid white;
-      border-top: solid white;
+      border-right: solid rgb(75, 75, 75);
+      border-top: solid rgb(75, 75, 75);
       border-width: 4px;
       border-radius: 2px;
       width: 100px;
